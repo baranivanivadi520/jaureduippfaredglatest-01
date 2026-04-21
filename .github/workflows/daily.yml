@@ -322,7 +322,6 @@ jobs:
           ENABLE_RELEASE_UPLOAD: 'false' # Upload to GitHub Release
           ENABLE_SESSION_RESTORE: 'false' # Set to 'true' to enable session restore (and disable upload)
         run: |
-          cd msr_modes_randomized_time
           ./script.sh
 
       - name: Upload Sessions Artifact
